@@ -1,0 +1,14 @@
+{
+	"name": "witown-open-sdk",
+	"version": "0.0.1",
+	"author": "witown",
+	"description": "open sdk",
+	"main": "index",
+	"dependencies": {
+		
+	},
+	"engines": {
+        "node": "0.10.26"
+    }
+	
+}
