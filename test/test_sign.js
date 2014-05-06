@@ -1,3 +1,7 @@
+/**
+ * test for sign
+ *
+ */
 var sign_util = require('../lib/sign_util');
 var crypto = require('crypto');
 

@@ -1,9 +1,10 @@
 {
 	"name": "witown-open-sdk",
-	"version": "0.0.1",
+	"version": "0.1.2",
 	"author": "witown",
 	"description": "open sdk",
-	"main": "index",
+	"main": "./index.js",
+	"homepage": "https://github.com/dchack",
 	"dependencies": {
 
 	},
