@@ -9,7 +9,7 @@ witown 开放平台的官方地址：
 本sdk基于node，版本为0.10.26
 
 ##使用
-在 json
+在 package.json 中的配置：
 ```bash
 "dependencies": {
      "witown-open-sdk":"*"
@@ -42,6 +42,12 @@ var data = {
 // merchant.get接口例子
 open.open_api(data, secret, showResponse).merchant.get();
 ```
+##测试
+可以直接在本项目的test文件夹下，执行
+```bash
+node test.js
+```
+就可以自动调用所有接口进行测试了
 
 ##其他
 接口调用需要成为witown 开放平台的开发者，部分接口有权限的限制，详细请阅读官方API。
