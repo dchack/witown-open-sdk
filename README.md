@@ -21,11 +21,8 @@ witown 开放平台的官方地址：
 $ npm install
 ```
 
-在自己项目的具体代码中如下方式使用：
-var open = require('witown-open-sdk');
+具体调用接口代码如下例：
 
-更加详细使用代码示例在源代码中的test文件夹中可以查看。
-如：
 ```js
 var open = require('witown-open-sdk');
 var path = '/router';
@@ -53,19 +50,20 @@ var request_option = {
 // merchant.get接口例子
 open.open_api(data, secret, request_option, showResponse).merchant.get();
 
-
-// merchant.get接口例子
-open.open_api(data, secret, showResponse).merchant.get();
 ```
-##测试
-可以直接在本项目的test文件夹下，执行
+
+更加详细使用代码示例可以参考代码源码中的test文件夹中的test.js文件。
+
+##测试代码
+直接在本项目的test文件夹下，执行
 ```bash
 node test.js
 ```
-就可以自动调用所有接口进行测试了
+自动调用所有接口进行测试，也可以自己编写测试代码。
 
 ##其他
 接口调用需要成为witown 开放平台的开发者，部分接口有权限的限制，详细请阅读官方API。
+注意：所有接口以官方资料为准。
 
 [![witown](http://t1.qpic.cn/mblogpic/b0ca4980c5d10cf867a8/2000.jpg)]
 (https://github.com/dchack/witown-open-sdk)
