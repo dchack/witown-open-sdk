@@ -1,9 +1,6 @@
-#witown-open-sdk
-===============
-[![witown](http://t1.qpic.cn/mblogpic/b0ca4980c5d10cf867a8/2000.jpg)]
-(https://github.com/dchack/witown-open-sdk)
-witown(树熊)开放平台sdk
+#witown(树熊)开放平台sdk
 官网地址：http://www.witown.cn/
+===============
 
 ##介绍
 witown 开放平台的官方地址：
@@ -53,3 +50,6 @@ node test.js
 
 ##其他
 接口调用需要成为witown 开放平台的开发者，部分接口有权限的限制，详细请阅读官方API。
+
+[![witown](http://t1.qpic.cn/mblogpic/b0ca4980c5d10cf867a8/2000.jpg)]
+(https://github.com/dchack/witown-open-sdk)
