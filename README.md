@@ -7,10 +7,10 @@ witown(树熊)开放平台sdk
 ##介绍
 witown 开放平台的官方地址：
 
-本sdk基于node，版本为0.10.26
+本sdk基于node，版本为0.10.26,建议使用npm构建项目方式。
 
 ##使用
-在 package.json 中的配置：
+在自己项目的 package.json 中的配置：
 ```bash
 "dependencies": {
      "witown-open-sdk":"*"
@@ -23,10 +23,10 @@ witown 开放平台的官方地址：
 $ npm install
 ```
 
-在自己项目的代码中这样使用：
+在自己项目的具体代码中如下方式使用：
 var open = require('witown-open-sdk');
 
-具体使用代码示例在源代码中的test文件夹中可以查看。
+更加详细使用代码示例在源代码中的test文件夹中可以查看。
 如：
 ```js
 var open = require('witown-open-sdk');
