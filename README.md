@@ -28,15 +28,31 @@ var open = require('witown-open-sdk');
 如：
 ```js
 var open = require('witown-open-sdk');
-var secret = '3431355427c1451787b3398836349226';
-var app_key = '21103';
+var path = '/router';
+var port = 80;
+var host = 'open.witown.com';
+var app_key = '21205';
+var secret = '3eca5f79070948afb23de1a245b7be32';
+
 function showResponse(err, response){
-    console.log(response);
+    if(!err){
+        console.log(response);
+    }
 }
 var data = {
     merchantId : '003214a2bc7111e2801200163e122bbb',
     appKey : app_key
 };
+
+var request_option = {
+    port : port,
+    path : path,
+    host : host
+};
+
+// merchant.get接口例子
+open.open_api(data, secret, request_option, showResponse).merchant.get();
+
 
 // merchant.get接口例子
 open.open_api(data, secret, showResponse).merchant.get();

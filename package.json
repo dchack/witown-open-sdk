@@ -1,6 +1,6 @@
 {
 	"name": "witown-open-sdk",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"author": "witown",
 	"description": "open sdk",
 	"main": "./index.js",
