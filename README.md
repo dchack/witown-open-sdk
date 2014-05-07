@@ -1,6 +1,6 @@
 #witown(树熊)开放平台sdk
 
-###官网地址：http://www.witown.cn/
+###官方网站：http://www.witown.cn/
 
 ##介绍
 witown 开放平台的官方地址：
