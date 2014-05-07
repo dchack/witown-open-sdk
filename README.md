@@ -1,6 +1,7 @@
 #witown-open-sdk
 ===============
-
+[![witown](http://t1.qpic.cn/mblogpic/b0ca4980c5d10cf867a8/2000.jpg)]
+(https://github.com/dchack/witown-open-sdk)
 witown(树熊)开放平台sdk
 官网地址：http://www.witown.cn/
 
