@@ -3,7 +3,7 @@
 ###官方网站：http://www.witown.cn/
 
 ##介绍
-witown 开放平台的官方地址：
+witown 开放平台官方地址：敬请期待
 
 本sdk基于node，版本为0.10.26,建议使用npm构建项目方式进行开发。
 
