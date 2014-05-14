@@ -3,9 +3,9 @@
 ###官方网站：http://www.witown.cn/
 
 ##介绍
-witown 开放平台官方地址：敬请期待
+witown 开放平台官方地址：http://wifi.witown.com/
 
-本sdk基于node，版本为0.10.26,建议使用npm构建项目方式进行开发。
+本sdk基于node.js，开发版本为0.10.26,建议使用npm构建项目方式进行开发。
 
 ##使用
 在自己项目的 package.json 中的配置：
